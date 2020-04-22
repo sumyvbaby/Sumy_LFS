@@ -1,0 +1,112 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+VERSION:2.0
+X-WR-CALNAME:Work
+PRODID:-//Apple Inc.//Mac OS X 10.12.6//EN
+X-APPLE-CALENDAR-COLOR:#CC73E1
+X-WR-TIMEZONE:Asia/Riyadh
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Riyadh
+BEGIN:STANDARD
+TZOFFSETFROM:+030652
+DTSTART:19470314T000008
+TZNAME:GMT+3
+TZOFFSETTO:+0300
+RDATE:19470314T000008
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Asia/Riyadh:20200419T130000
+UID:20200419T075448Z-96408347091@fe80:0:0:0:c2d:61ff:fe60:a6a8eth0
+DTSTAMP:20200419T075448Z
+LOCATION:https://kaust.zoom.us/j/96408347091
+DESCRIPTION:Sumy Vannilathil Baby is inviting you to a scheduled Zoom me
+ eting.\n\nJoin Zoom Meeting\nhttps://kaust.zoom.us/j/96408347091\n\nMeet
+ ing ID: 964 0834 7091\nOne tap mobile\n+13462487799\,\,96408347091# US (
+ Houston)\n+16699006833\,\,96408347091# US (San Jose)\n\nDial by your loc
+ ation\n        +1 346 248 7799 US (Houston)\n        +1 669 900 6833 US 
+ (San Jose)\n        +1 929 436 2866 US (New York)\n        +1 253 215 87
+ 82 US\n        +1 301 715 8592 US\n        +1 312 626 6799 US (Chicago)\
+ n        888 788 0099 US Toll-free\n        877 853 5247 US Toll-free\n 
+        800 811 0528 Saudi Arabia Toll-free\n        800 814 3820 Saudi A
+ rabia Toll-free\n        800 850 0304 Saudi Arabia Toll-free\n        80
+ 0 035 704 239 United Arab Emirates Toll-free\n        800 035 704 555 Un
+ ited Arab Emirates Toll-free\n        800 0491 0899 United Arab Emirates
+  Toll-free\n        +44 208 080 6591 United Kingdom\n        +44 208 080
+  6592 United Kingdom\n        +44 330 088 5830 United Kingdom\n        +
+ 44 131 460 1196 United Kingdom\n        +44 203 481 5237 United Kingdom\
+ n        +44 203 481 5240 United Kingdom\n        0 800 260 5801 United 
+ Kingdom Toll-free\n        0 800 031 5717 United Kingdom Toll-free\nMeet
+ ing ID: 964 0834 7091\nFind your local number: https://kaust.zoom.us/u/a
+ TT37dFsD\n\nJoin by SIP\n96408347091@zoomcrc.com\n\nJoin by H.323\n162.2
+ 55.37.11 (US West)\n162.255.36.11 (US East)\n221.122.88.195 (China)\n115
+ .114.131.7 (India Mumbai)\n115.114.115.7 (India Hyderabad)\n213.19.144.1
+ 10 (EMEA)\n103.122.166.55 (Australia)\n209.9.211.110 (Hong Kong\n China)
+ \n64.211.144.160 (Brazil)\n69.174.57.160 (Canada)\n207.226.132.110 (Japa
+ n)\nMeeting ID: 964 0834 7091\n\nJoin by Skype for Business\nhttps://kau
+ st.zoom.us/skype/96408347091\n
+TZID:Asia/Riyadh
+SEQUENCE:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+SUMMARY:Bioinformatics Training
+DTSTART;TZID=Asia/Riyadh:20200419T110000
+CREATED:20200419T075517Z
+BEGIN:VALARM
+X-WR-ALARMUID:42000343-4946-4131-9112-D6A463DD5661
+UID:42000343-4946-4131-9112-D6A463DD5661
+TRIGGER:-PT10M
+DESCRIPTION:Reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Asia/Riyadh:20200427T130000
+UID:ZOOM96408347091
+DTSTAMP:20200419T084546Z
+LOCATION:https://kaust.zoom.us/j/96408347091
+DESCRIPTION:Dear all\,\n\nI have scheduled the bioinformatics classes on
+  every monday and wednesday from 11 am to 1 pm Starting from April 27th 
+ to June.\n\nRegards\,\nSumy \n\n\nSumy Vannilathil Baby is inviting you 
+ to a scheduled Zoom meeting.\n\nJoin Zoom Meeting\nhttps://kaust.zoom.us
+ /j/96408347091\n\nMeeting ID: 964 0834 7091\nOne tap mobile\n+1346248779
+ 9\,\,96408347091# US (Houston)\n+16699006833\,\,96408347091# US (San Jos
+ e)\n\nDial by your location\n        +1 346 248 7799 US (Houston)\n     
+    +1 669 900 6833 US (San Jose)\n        +1 929 436 2866 US (New York)\
+ n        +1 253 215 8782 US\n        +1 301 715 8592 US\n        +1 312 
+ 626 6799 US (Chicago)\n        888 788 0099 US Toll-free\n        877 85
+ 3 5247 US Toll-free\n        800 811 0528 Saudi Arabia Toll-free\n      
+   800 814 3820 Saudi Arabia Toll-free\n        800 850 0304 Saudi Arabia
+  Toll-free\n        800 035 704 239 United Arab Emirates Toll-free\n    
+     800 035 704 555 United Arab Emirates Toll-free\n        800 0491 089
+ 9 United Arab Emirates Toll-free\n        +44 208 080 6591 United Kingdo
+ m\n        +44 208 080 6592 United Kingdom\n        +44 330 088 5830 Uni
+ ted Kingdom\n        +44 131 460 1196 United Kingdom\n        +44 203 48
+ 1 5237 United Kingdom\n        +44 203 481 5240 United Kingdom\n        
+ 0 800 260 5801 United Kingdom Toll-free\n        0 800 031 5717 United K
+ ingdom Toll-free\nMeeting ID: 964 0834 7091\nFind your local number: htt
+ ps://kaust.zoom.us/u/aTT37dFsD\n\nJoin by SIP\n96408347091@zoomcrc.com\n
+ \nJoin by H.323\n162.255.37.11 (US West)\n162.255.36.11 (US East)\n221.1
+ 22.88.195 (China)\n115.114.131.7 (India Mumbai)\n115.114.115.7 (India Hy
+ derabad)\n213.19.144.110 (EMEA)\n103.122.166.55 (Australia)\n209.9.211.1
+ 10 (Hong Kong\n China)\n64.211.144.160 (Brazil)\n69.174.57.160 (Canada)\
+ n207.226.132.110 (Japan)\nMeeting ID: 964 0834 7091\n\nJoin by Skype for
+  Business\nhttps://kaust.zoom.us/skype/96408347091\n
+TZID:Asia/Riyadh
+SEQUENCE:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+SUMMARY:Bioinformatics Training
+DTSTART;TZID=Asia/Riyadh:20200427T110000
+CREATED:20200419T081009Z
+RRULE:FREQ=WEEKLY;INTERVAL=1;UNTIL=20200629T100000Z;BYDAY=MO,WE;WKST=SU
+BEGIN:VALARM
+X-WR-ALARMUID:4D03FBC4-9925-468A-9FE3-A9392260EE23
+UID:4D03FBC4-9925-468A-9FE3-A9392260EE23
+TRIGGER:-PT10M
+DESCRIPTION:Reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR

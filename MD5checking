@@ -1,0 +1,124 @@
+Last login: Wed Mar 18 07:51:38 on ttys016
+(base) kl-17274:~ vannils$ ssh dm01.kaust.edu.sa
+Password: 
+Last login: Tue Mar 17 08:51:21 2020 from 10.218.0.225
+-bash-4.2$ cd /datawaha
+-bash-4.2$ cd cbc
+-bash-4.2$ ls
+2020-03-02 H1.4nuc-35C reass-DMAE.tif  Core_HIC                   kw14148_velucha                         Others   test_backup
+AARÓN                                  CoreLab_Wolfgang_Data      KW60208_home_data                       Othman   unicorn exported files jan 20
+Abrar                                  CoreNovogen_Wolfgang_Data  KW60208_RCDrive_data                    Papita   Velucha
+Ahlem                                  Dulat                      Lorena                                  PLOTS    Yogesh
+Allmatrix                              Elizabeth                  MPI-Bpc 2005-2018                       Sarah    Zhadyra
+AllValidPairs                          Fernanda                   Nanodrop stuff_from Urea AKTA computer  Shakila
+archive                                former lab members KAUST   Native AKTA & TECAN                     Sumy
+Backup_KW14148                         Jorge                      OldCopies_KW60208                       test1
+-bash-4.2$ cd CoreNovogen_Wolfgang_Data  
+-bash-4.2$ ls
+H201SC19120305-SA-KAUST_Yogesh  H201SC20010205-SA-KAUST_Yogesh  H201SC20020797-SA-KAUST_Sarah_2_ATAC-seq_lib  H201SC20020814-SA-KAUST_Yogesh_4
+-bash-4.2$ ls
+H201SC19120305-SA-KAUST_Yogesh  H201SC20010205-SA-KAUST_Yogesh  H201SC20020797-SA-KAUST_Sarah_2_ATAC-seq_lib  H201SC20020814-SA-KAUST_Yogesh_4
+-bash-4.2$ pwd
+/datawaha/cbc/CoreNovogen_Wolfgang_Data
+-bash-4.2$ ls
+H201SC19120305-SA-KAUST_Yogesh  H201SC20020587-SA-KAUST_Yogesh                H201SC20020814-SA-KAUST_Yogesh_4
+H201SC20010205-SA-KAUST_Yogesh  H201SC20020797-SA-KAUST_Sarah_2_ATAC-seq_lib
+-bash-4.2$ cd H201SC20020587-SA-KAUST_Yogesh  
+-bash-4.2$ ls
+customer-q7VqKxbo
+-bash-4.2$ cd c*
+-bash-4.2$ ls
+checkSize.xls  raw_data  X201SC20020587-Z01-F001_qc_20200311.tar.gz
+-bash-4.2$ cd raw_*
+-bash-4.2$ ls
+EMO1_1_1.fq.gz  EMO1_2_2.fq.gz  EMO2_2_1.fq.gz     hpl_2tm_1_2.fq.gz  I158A_1_1.fq.gz  I158A_2_2.fq.gz     lin_61tm_2_1.fq.gz
+EMO1_1_2.fq.gz  EMO2_1_1.fq.gz  EMO2_2_2.fq.gz     hpl_2tm_2_1.fq.gz  I158A_1_2.fq.gz  lin_61tm_1_1.fq.gz  lin_61tm_2_2.fq.gz
+EMO1_2_1.fq.gz  EMO2_1_2.fq.gz  hpl_2tm_1_1.fq.gz  hpl_2tm_2_2.fq.gz  I158A_2_1.fq.gz  lin_61tm_1_2.fq.gz  MD5.txt
+-bash-4.2$ cat MD5.txt
+f7aeac2d35bb3c301a99e96c482f1227  lin_61tm_1_1.fq.gz
+38280483c2a4683e6eba9c35e834b6ca  lin_61tm_1_2.fq.gz
+53b6899fe7b92b6b00067759926f4e79  lin_61tm_2_1.fq.gz
+dce8b0a82023ae55d0414ef0f6ddb18b  lin_61tm_2_2.fq.gz
+b70df148caf1a478fae9453bf0256229  hpl_2tm_2_1.fq.gz
+216578f0c524312279eb5b23ce3d971c  hpl_2tm_2_2.fq.gz
+afe2b5c51b9bc132e85c757af4888eb9  hpl_2tm_1_1.fq.gz
+b56458a6763682262eeca35be84318b6  hpl_2tm_1_2.fq.gz
+d5fda008d79646e7674df744b0fbf719  EMO1_1_1.fq.gz
+32f87ec3c5bfebb60fdbce737c6d66b2  EMO1_1_2.fq.gz
+66a25c7375373409b9a7b51b47c65e53  I158A_1_1.fq.gz
+c797b30a092eafc8bdc16471c5d6f693  I158A_1_2.fq.gz
+c2ffc228942360180050744d4ff24269  I158A_2_1.fq.gz
+ac76c301e893d2cdbda8f121fd3e427b  I158A_2_2.fq.gz
+12b439be093091b3f182dffb577d0618  EMO1_2_1.fq.gz
+dce6dae0f568ac576b1dcb512d7a3c38  EMO1_2_2.fq.gz
+9ed2f763a00dfb8fb947c0781c26ecbd  EMO2_2_1.fq.gz
+0417640501257f86514fa86f01e05093  EMO2_2_2.fq.gz
+9e1e18d2c173ccf746fb05da59c6fbbb  EMO2_1_1.fq.gz
+cb023afa5e1d21d0c68114b96a220bf5  EMO2_1_2.fq.gz
+-bash-4.2$ md5sum *fq.gz
+d5fda008d79646e7674df744b0fbf719  EMO1_1_1.fq.gz
+32f87ec3c5bfebb60fdbce737c6d66b2  EMO1_1_2.fq.gz
+12b439be093091b3f182dffb577d0618  EMO1_2_1.fq.gz
+dce6dae0f568ac576b1dcb512d7a3c38  EMO1_2_2.fq.gz
+9e1e18d2c173ccf746fb05da59c6fbbb  EMO2_1_1.fq.gz
+cb023afa5e1d21d0c68114b96a220bf5  EMO2_1_2.fq.gz
+9ed2f763a00dfb8fb947c0781c26ecbd  EMO2_2_1.fq.gz
+0417640501257f86514fa86f01e05093  EMO2_2_2.fq.gz
+afe2b5c51b9bc132e85c757af4888eb9  hpl_2tm_1_1.fq.gz
+b56458a6763682262eeca35be84318b6  hpl_2tm_1_2.fq.gz
+b70df148caf1a478fae9453bf0256229  hpl_2tm_2_1.fq.gz
+216578f0c524312279eb5b23ce3d971c  hpl_2tm_2_2.fq.gz
+66a25c7375373409b9a7b51b47c65e53  I158A_1_1.fq.gz
+c797b30a092eafc8bdc16471c5d6f693  I158A_1_2.fq.gz
+c2ffc228942360180050744d4ff24269  I158A_2_1.fq.gz
+ac76c301e893d2cdbda8f121fd3e427b  I158A_2_2.fq.gz
+f7aeac2d35bb3c301a99e96c482f1227  lin_61tm_1_1.fq.gz
+38280483c2a4683e6eba9c35e834b6ca  lin_61tm_1_2.fq.gz
+53b6899fe7b92b6b00067759926f4e79  lin_61tm_2_1.fq.gz
+dce8b0a82023ae55d0414ef0f6ddb18b  lin_61tm_2_2.fq.gz
+-bash-4.2$ md5sum *fq.gz > md5sumdownloadedfiles.txt
+-bash-4.2$ cat md5sumdownloadedfiles.txt
+d5fda008d79646e7674df744b0fbf719  EMO1_1_1.fq.gz
+32f87ec3c5bfebb60fdbce737c6d66b2  EMO1_1_2.fq.gz
+12b439be093091b3f182dffb577d0618  EMO1_2_1.fq.gz
+dce6dae0f568ac576b1dcb512d7a3c38  EMO1_2_2.fq.gz
+9e1e18d2c173ccf746fb05da59c6fbbb  EMO2_1_1.fq.gz
+cb023afa5e1d21d0c68114b96a220bf5  EMO2_1_2.fq.gz
+9ed2f763a00dfb8fb947c0781c26ecbd  EMO2_2_1.fq.gz
+0417640501257f86514fa86f01e05093  EMO2_2_2.fq.gz
+afe2b5c51b9bc132e85c757af4888eb9  hpl_2tm_1_1.fq.gz
+b56458a6763682262eeca35be84318b6  hpl_2tm_1_2.fq.gz
+b70df148caf1a478fae9453bf0256229  hpl_2tm_2_1.fq.gz
+216578f0c524312279eb5b23ce3d971c  hpl_2tm_2_2.fq.gz
+66a25c7375373409b9a7b51b47c65e53  I158A_1_1.fq.gz
+c797b30a092eafc8bdc16471c5d6f693  I158A_1_2.fq.gz
+c2ffc228942360180050744d4ff24269  I158A_2_1.fq.gz
+ac76c301e893d2cdbda8f121fd3e427b  I158A_2_2.fq.gz
+f7aeac2d35bb3c301a99e96c482f1227  lin_61tm_1_1.fq.gz
+38280483c2a4683e6eba9c35e834b6ca  lin_61tm_1_2.fq.gz
+53b6899fe7b92b6b00067759926f4e79  lin_61tm_2_1.fq.gz
+dce8b0a82023ae55d0414ef0f6ddb18b  lin_61tm_2_2.fq.gz
+-bash-4.2$ grep -f md5sumdownloadedfiles.txt MD5.txt
+f7aeac2d35bb3c301a99e96c482f1227  lin_61tm_1_1.fq.gz
+38280483c2a4683e6eba9c35e834b6ca  lin_61tm_1_2.fq.gz
+53b6899fe7b92b6b00067759926f4e79  lin_61tm_2_1.fq.gz
+dce8b0a82023ae55d0414ef0f6ddb18b  lin_61tm_2_2.fq.gz
+b70df148caf1a478fae9453bf0256229  hpl_2tm_2_1.fq.gz
+216578f0c524312279eb5b23ce3d971c  hpl_2tm_2_2.fq.gz
+afe2b5c51b9bc132e85c757af4888eb9  hpl_2tm_1_1.fq.gz
+b56458a6763682262eeca35be84318b6  hpl_2tm_1_2.fq.gz
+d5fda008d79646e7674df744b0fbf719  EMO1_1_1.fq.gz
+32f87ec3c5bfebb60fdbce737c6d66b2  EMO1_1_2.fq.gz
+66a25c7375373409b9a7b51b47c65e53  I158A_1_1.fq.gz
+c797b30a092eafc8bdc16471c5d6f693  I158A_1_2.fq.gz
+c2ffc228942360180050744d4ff24269  I158A_2_1.fq.gz
+ac76c301e893d2cdbda8f121fd3e427b  I158A_2_2.fq.gz
+12b439be093091b3f182dffb577d0618  EMO1_2_1.fq.gz
+dce6dae0f568ac576b1dcb512d7a3c38  EMO1_2_2.fq.gz
+9ed2f763a00dfb8fb947c0781c26ecbd  EMO2_2_1.fq.gz
+0417640501257f86514fa86f01e05093  EMO2_2_2.fq.gz
+9e1e18d2c173ccf746fb05da59c6fbbb  EMO2_1_1.fq.gz
+cb023afa5e1d21d0c68114b96a220bf5  EMO2_1_2.fq.gz
+-bash-4.2$ grep -f md5sumdownloadedfiles.txt MD5.txt | wc -l
+20
+-bash-4.2$ 

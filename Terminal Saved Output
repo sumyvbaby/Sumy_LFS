@@ -1,0 +1,642 @@
+Last login: Mon Mar 16 21:33:51 on ttys009
+(base) kl-17274:Downloads vannils$ ssh dm01.kaust.edu.sa
+Password: 
+Last login: Thu Mar 12 08:48:32 2020 from kl-17274.kaust.edu.sa
+-bash-4.2$ cd/datawahs
+-bash: cd/datawahs: No such file or directory
+-bash-4.2$ cd cbc
+-bash: cd: cbc: No such file or directory
+-bash-4.2$ cd/datawaha
+-bash: cd/datawaha: No such file or directory
+-bash-4.2$ cd /datawaha
+-bash-4.2$ cd cbc
+-bash-4.2$ ls
+2020-03-02 H1.4nuc-35C reass-DMAE.tif  Lorena
+AARÓN                                  MPI-Bpc 2005-2018
+Abrar                                  Nanodrop stuff_from Urea AKTA computer
+Ahlem                                  Native AKTA & TECAN
+Allmatrix                              OldCopies_KW60208
+AllValidPairs                          Others
+archive                                Othman
+Backup_KW14148                         Papita
+Core_HIC                               PLOTS
+CoreLab_Wolfgang_Data                  Sarah
+CoreNovogen_Wolfgang_Data              Shakila
+Dulat                                  Sumy
+Elizabeth                              test1
+Fernanda                               test_backup
+former lab members KAUST               unicorn exported files jan 20
+Jorge                                  Velucha
+kw14148_velucha                        Yogesh
+KW60208_home_data                      Zhadyra
+KW60208_RCDrive_data
+-bash-4.2$ cd CoreNovogen_Wolfgang_Data 
+-bash-4.2$ ls
+H201SC19120305-SA-KAUST_Yogesh  H201SC20020797-SA-KAUST_Sarah_2_ATAC-seq_lib
+H201SC20010205-SA-KAUST_Yogesh  H201SC20020814-SA-KAUST_Yogesh_4
+-bash-4.2$ cd H201SC19120305-SA-KAUST_Yogesh
+-bash-4.2$ ls
+checkSize.xls  raw_data                             X201SC19120305-Z01-F001_qc_20191227 2
+outputQCFirst  X201SC19120305-Z01-F001_qc_20191227  X201SC19120305-Z01-F001_qc_20191227.tar.gz
+-bash-4.2$ cd raw_data 
+-bash-4.2$ ls
+MD5.txt                    sample_III_N2_III_2.fq.gz  sample_IV_btm_I_2.fq.gz    sa_VIII_triMut_II_2.fq.gz
+sa_IX_triMut_III_1.fq.gz   sample_II__N2_II_1.fq.gz   sample_VI_btm_III_1.fq.gz
+sa_IX_triMut_III_2.fq.gz   sample_II__N2_II_2.fq.gz   sample_VI_btm_III_2.fq.gz
+sample_III_N2_III_1.fq.gz  sample_IV_btm_I_1.fq.gz    sa_VIII_triMut_II_1.fq.gz
+-bash-4.2$ cd ..
+-bash-4.2$ cd ..
+-bash-4.2$ ls
+H201SC19120305-SA-KAUST_Yogesh  H201SC20020797-SA-KAUST_Sarah_2_ATAC-seq_lib
+H201SC20010205-SA-KAUST_Yogesh  H201SC20020814-SA-KAUST_Yogesh_4
+-bash-4.2$ du -sh H201SC19120305-SA-KAUST_Yogesh 
+19G	H201SC19120305-SA-KAUST_Yogesh
+-bash-4.2$ cd H201SC19120305-SA-KAUST_Yogesh
+-bash-4.2$ ls
+checkSize.xls  raw_data                             X201SC19120305-Z01-F001_qc_20191227 2
+outputQCFirst  X201SC19120305-Z01-F001_qc_20191227  X201SC19120305-Z01-F001_qc_20191227.tar.gz
+-bash-4.2$ du -sh  raw_data    
+19G	raw_data
+-bash-4.2$ cd ..
+-bash-4.2$ ls
+H201SC19120305-SA-KAUST_Yogesh  H201SC20020797-SA-KAUST_Sarah_2_ATAC-seq_lib
+H201SC20010205-SA-KAUST_Yogesh  H201SC20020814-SA-KAUST_Yogesh_4
+-bash-4.2$ cd ..
+-bash-4.2$ ls
+2020-03-02 H1.4nuc-35C reass-DMAE.tif  Lorena
+AARÓN                                  MPI-Bpc 2005-2018
+Abrar                                  Nanodrop stuff_from Urea AKTA computer
+Ahlem                                  Native AKTA & TECAN
+Allmatrix                              OldCopies_KW60208
+AllValidPairs                          Others
+archive                                Othman
+Backup_KW14148                         Papita
+Core_HIC                               PLOTS
+CoreLab_Wolfgang_Data                  Sarah
+CoreNovogen_Wolfgang_Data              Shakila
+Dulat                                  Sumy
+Elizabeth                              test1
+Fernanda                               test_backup
+former lab members KAUST               unicorn exported files jan 20
+Jorge                                  Velucha
+kw14148_velucha                        Yogesh
+KW60208_home_data                      Zhadyra
+KW60208_RCDrive_data
+-bash-4.2$ cd Sumy
+-bash-4.2$ ls
+Coordinatesort                                            NewFilesDownload
+DataTable                                                 OldIntervalstat
+ElizebethRNAseq                                           OldIntervalStatsPlots
+H3k9me3CelegansEmbryo_ChipseqDatasets_Intersection_Plots  ProjectFilesArranged
+HICAnalysis                                               Project_Machine_Learning
+HumanNCBI_K562_ME1_DNMT1                                  Project_ProteomicsNCBI
+IntersectionPlots                                         ProjectProteomicsNCBI_Intervalstats
+IntervalstatAnalysis2                                     RNAPolymerase2
+IntervalStatControlsHist1                                 Sorted_byCordinate
+IntervalStatDataHist1                                     Yogesh_EukayoticMRNA_RNAseq
+Making200bpWindows_ForVennDiagram                         Yogesh_SarahRNAseq
+New_Counts
+-bash-4.2$ cd   Yogesh_EukayoticMRNA_RNAseq
+-bash-4.2$ ls
+checkSize.xls                  RNA_Seq_Analysis         RNAseqDownstreamPlots
+DiffrentialExpReversestranded  RNA_Seq_Analysis_Latest  X201SC19120305-Z01-F001_qc_20191227
+FunctionalAnnotation           RNAseqAnalysis.pptx      X201SC19120305-Z01-F001_qc_20191227.tar.gz
+-bash-4.2$ cd X201SC19120305-Z01-F001_qc_20191227
+-bash-4.2$ ls
+src  X201SC19120305-Z01-F001.QC_report.html  X201SC19120305-Z01-F001.QC_report.pdf
+-bash-4.2$ cd ..
+-bash-4.2$ ls
+checkSize.xls                  RNA_Seq_Analysis         RNAseqDownstreamPlots
+DiffrentialExpReversestranded  RNA_Seq_Analysis_Latest  X201SC19120305-Z01-F001_qc_20191227
+FunctionalAnnotation           RNAseqAnalysis.pptx      X201SC19120305-Z01-F001_qc_20191227.tar.gz
+-bash-4.2$ du -sh X201SC19120305-Z01-F001_qc_20191227
+6.0M	X201SC19120305-Z01-F001_qc_20191227
+-bash-4.2$ cd  RNA_Seq_Analysis_Latest
+-bash-4.2$ ls
+AnnotationCE11                                          sample_II__N2_II_1.fqLog.progress.out
+Btm                                                     sample_II__N2_II_1.fqReadsPerGene.out.tab
+Btm_counts                                              sample_II__N2_II_1.fqReadsPerGene.out.tab_count
+Commandhtone.sh                                         sample_II__N2_II_1.fqReadsPerGene.out.tab_count1
+Commands1.sh                                            sample_II__N2_II_1.fqSJ.out.tab
+Commands2.sh                                            sample_II__N2_II_1.fq_STARgenome
+Commands3.sh                                            sample_II__N2_II_1.fqUnmapped.out.mate1
+Commands4.sh                                            sample_II__N2_II_1.fqUnmapped.out.mate2
+Commands5.sh                                            sample_II__N2_II_2.fq
+Commands6.sh                                            sample_IV_btm_I_1.fq
+Commandsht1.sh                                          sample_IV_btm_I_1.fqAligned.out.bam
+Commandsht2.sh                                          sample_IV_btm_I_1.fqAligned.out.bamCounts
+Commandsht3.sh                                          sample_IV_btm_I_1.fqLog.final.out
+Commandsht4.sh                                          sample_IV_btm_I_1.fqLog.out
+Commandsht5.sh                                          sample_IV_btm_I_1.fqLog.progress.out
+Commandsht6.sh                                          sample_IV_btm_I_1.fqReadsPerGene.out.tab
+Commandsort1.sh                                         sample_IV_btm_I_1.fqReadsPerGene.out.tab_count
+Commandsort2.sh                                         sample_IV_btm_I_1.fqReadsPerGene.out.tab_count1
+Commandsort3.sh                                         sample_IV_btm_I_1.fqSJ.out.tab
+Commandsort4.sh                                         sample_IV_btm_I_1.fq_STARgenome
+Commandsort5.sh                                         sample_IV_btm_I_1.fqUnmapped.out.mate1
+Commandsort6.sh                                         sample_IV_btm_I_1.fqUnmapped.out.mate2
+Coordinatesort                                          sample_IV_btm_I_2.fq
+DifferentialExpAnalysis_reversestranded                 sample_VI_btm_III_1.fq
+DiffExp_Analysis                                        sample_VI_btm_III_1.fqAligned.out.bam
+DiffrentialExpProteinCodingGenes                        sample_VI_btm_III_1.fqAligned.out.bamCounts
+FastQC.sh                                               sample_VI_btm_III_1.fqLog.final.out
+Format1.sh                                              sample_VI_btm_III_1.fqLog.out
+FormatCounts2.sh                                        sample_VI_btm_III_1.fqLog.progress.out
+FormatCounts3.sh                                        sample_VI_btm_III_1.fqReadsPerGene.out.tab
+FormatCounts4.sh                                        sample_VI_btm_III_1.fqReadsPerGene.out.tab_count
+FormatCounts5.sh                                        sample_VI_btm_III_1.fqReadsPerGene.out.tab_count1
+FormatedCounts                                          sample_VI_btm_III_1.fqSJ.out.tab
+FormatedCounts1                                         sample_VI_btm_III_1.fq_STARgenome
+FormatedCounts2                                         sample_VI_btm_III_1.fqUnmapped.out.mate1
+FormatedCounts5                                         sample_VI_btm_III_1.fqUnmapped.out.mate2
+HtseqcountCommands.sh                                   sample_VI_btm_III_2.fq
+MD5.txt                                                 sa_VIII_triMut_II_1.fq
+MergedCounts                                            sa_VIII_triMut_II_1.fqAligned.out.bam
+N2                                                      sa_VIII_triMut_II_1.fqAligned.out.bamCounts
+N2_counts                                               sa_VIII_triMut_II_1.fqLog.final.out
+outputQCFirst                                           sa_VIII_triMut_II_1.fqLog.out
+ReferenceGenomeCe11                                     sa_VIII_triMut_II_1.fqLog.progress.out
+sa_IX_triMut_III_1.fq                                   sa_VIII_triMut_II_1.fqReadsPerGene.out.tab
+sa_IX_triMut_III_1.fqAligned.out.bam                    sa_VIII_triMut_II_1.fqReadsPerGene.out.tab_count
+sa_IX_triMut_III_1.fqAligned.out.bamCounts              sa_VIII_triMut_II_1.fqReadsPerGene.out.tab_count1
+sa_IX_triMut_III_1.fqAligned.out.bamCounts_new          sa_VIII_triMut_II_1.fqSJ.out.tab
+sa_IX_triMut_III_1.fqAligned.out.bamCounts_new1         sa_VIII_triMut_II_1.fq_STARgenome
+sa_IX_triMut_III_1.fqAligned.out.bamCounts_nonstranded  sa_VIII_triMut_II_1.fqUnmapped.out.mate1
+sa_IX_triMut_III_1.fqAligned.out.bamCounts_Reversed     sa_VIII_triMut_II_1.fqUnmapped.out.mate2
+sa_IX_triMut_III_1.fqLog.final.out                      sa_VIII_triMut_II_2.fq
+sa_IX_triMut_III_1.fqLog.out                            slurm-8491519.out
+sa_IX_triMut_III_1.fqLog.progress.out                   slurm-8491603.out
+sa_IX_triMut_III_1.fqReadsPerGene.out.tab               slurm-8491604.out
+sa_IX_triMut_III_1.fqReadsPerGene.out.tab_count         slurm-8491605.out
+sa_IX_triMut_III_1.fqReadsPerGene.out.tab_count1        slurm-8491607.out
+sa_IX_triMut_III_1.fqSJ.out.tab                         slurm-8491608.out
+sa_IX_triMut_III_1.fq_STARgenome                        slurm-8491609.out
+sa_IX_triMut_III_1.fqUnmapped.out.mate1                 slurm-8515693.out
+sa_IX_triMut_III_1.fqUnmapped.out.mate2                 slurm-8515694.out
+sa_IX_triMut_III_2.fq                                   slurm-8519248.out
+sample_III_N2_III_1.fq                                  slurm-8520581.out
+sample_III_N2_III_1.fqAligned.out.bam                   slurm-8553595.out
+sample_III_N2_III_1.fqAligned.out.bamCounts             slurm-8576869.out
+sample_III_N2_III_1.fqLog.final.out                     slurm-8577016.out
+sample_III_N2_III_1.fqLog.out                           slurm-8577244.out
+sample_III_N2_III_1.fqLog.progress.out                  slurm-8577245.out
+sample_III_N2_III_1.fqReadsPerGene.out.tab              slurm-8577246.out
+sample_III_N2_III_1.fqReadsPerGene.out.tab_count        slurm-8577251.out
+sample_III_N2_III_1.fqReadsPerGene.out.tab_count1       slurm-8577278.out
+sample_III_N2_III_1.fqSJ.out.tab                        slurm-8577279.out
+sample_III_N2_III_1.fq_STARgenome                       Sortcommands.sh
+sample_III_N2_III_1.fqUnmapped.out.mate1                Sorted_byCordinate
+sample_III_N2_III_1.fqUnmapped.out.mate2                StarAlignmentCommands.sh
+sample_III_N2_III_2.fq                                  StarRefIndex
+sample_II__N2_II_1.fq                                   StarRefIndex.sh
+sample_II__N2_II_1.fqAligned.out.bam                    Trimut
+sample_II__N2_II_1.fqAligned.out.bamCounts              Trimut_counts
+sample_II__N2_II_1.fqLog.final.out                      unzip.sh
+sample_II__N2_II_1.fqLog.out
+-bash-4.2$ ls *fq
+sa_IX_triMut_III_1.fq   sample_III_N2_III_2.fq  sample_IV_btm_I_1.fq    sample_VI_btm_III_2.fq
+sa_IX_triMut_III_2.fq   sample_II__N2_II_1.fq   sample_IV_btm_I_2.fq    sa_VIII_triMut_II_1.fq
+sample_III_N2_III_1.fq  sample_II__N2_II_2.fq   sample_VI_btm_III_1.fq  sa_VIII_triMut_II_2.fq
+-bash-4.2$ md5sum sa_IX_triMut_III_1.fq  
+84b8da20010951d85611a901f8965699  sa_IX_triMut_III_1.fq
+-bash-4.2$ cd ..
+-bash-4.2$ ls
+checkSize.xls                  RNA_Seq_Analysis         RNAseqDownstreamPlots
+DiffrentialExpReversestranded  RNA_Seq_Analysis_Latest  X201SC19120305-Z01-F001_qc_20191227
+FunctionalAnnotation           RNAseqAnalysis.pptx      X201SC19120305-Z01-F001_qc_20191227.tar.gz
+-bash-4.2$ cd ..
+-bash-4.2$ ls
+Coordinatesort                                            NewFilesDownload
+DataTable                                                 OldIntervalstat
+ElizebethRNAseq                                           OldIntervalStatsPlots
+H3k9me3CelegansEmbryo_ChipseqDatasets_Intersection_Plots  ProjectFilesArranged
+HICAnalysis                                               Project_Machine_Learning
+HumanNCBI_K562_ME1_DNMT1                                  Project_ProteomicsNCBI
+IntersectionPlots                                         ProjectProteomicsNCBI_Intervalstats
+IntervalstatAnalysis2                                     RNAPolymerase2
+IntervalStatControlsHist1                                 Sorted_byCordinate
+IntervalStatDataHist1                                     Yogesh_EukayoticMRNA_RNAseq
+Making200bpWindows_ForVennDiagram                         Yogesh_SarahRNAseq
+New_Counts
+-bash-4.2$ cd ..
+-bash-4.2$ ls
+2020-03-02 H1.4nuc-35C reass-DMAE.tif  Lorena
+AARÓN                                  MPI-Bpc 2005-2018
+Abrar                                  Nanodrop stuff_from Urea AKTA computer
+Ahlem                                  Native AKTA & TECAN
+Allmatrix                              OldCopies_KW60208
+AllValidPairs                          Others
+archive                                Othman
+Backup_KW14148                         Papita
+Core_HIC                               PLOTS
+CoreLab_Wolfgang_Data                  Sarah
+CoreNovogen_Wolfgang_Data              Shakila
+Dulat                                  Sumy
+Elizabeth                              test1
+Fernanda                               test_backup
+former lab members KAUST               unicorn exported files jan 20
+Jorge                                  Velucha
+kw14148_velucha                        Yogesh
+KW60208_home_data                      Zhadyra
+KW60208_RCDrive_data
+-bash-4.2$ cd CoreNovogen_Wolfgang_Data 
+-bash-4.2$ ls
+H201SC19120305-SA-KAUST_Yogesh  H201SC20020797-SA-KAUST_Sarah_2_ATAC-seq_lib
+H201SC20010205-SA-KAUST_Yogesh  H201SC20020814-SA-KAUST_Yogesh_4
+-bash-4.2$ cd H201SC19120305-SA-KAUST_Yogesh 
+-bash-4.2$ ls
+checkSize.xls  raw_data                             X201SC19120305-Z01-F001_qc_20191227 2
+outputQCFirst  X201SC19120305-Z01-F001_qc_20191227  X201SC19120305-Z01-F001_qc_20191227.tar.gz
+-bash-4.2$ cd raw_data  
+-bash-4.2$ ls
+MD5.txt                    sample_III_N2_III_2.fq.gz  sample_IV_btm_I_2.fq.gz    sa_VIII_triMut_II_2.fq.gz
+sa_IX_triMut_III_1.fq.gz   sample_II__N2_II_1.fq.gz   sample_VI_btm_III_1.fq.gz
+sa_IX_triMut_III_2.fq.gz   sample_II__N2_II_2.fq.gz   sample_VI_btm_III_2.fq.gz
+sample_III_N2_III_1.fq.gz  sample_IV_btm_I_1.fq.gz    sa_VIII_triMut_II_1.fq.gz
+-bash-4.2$ cat MD5.txt 
+ff4de6d4db912640fd668f354a507440  sa_VIII_triMut_II_1.fq.gz
+0c5bdce05006fd87098ce0c8aafeb810  sa_VIII_triMut_II_2.fq.gz
+65025b9fba3ff6469863551300ebaabc  sample_IV_btm_I_1.fq.gz
+05f1d118dbe79b951ccdbaceeac8220b  sample_IV_btm_I_2.fq.gz
+c285696811d1162f50f94797ed42820d  sa_IX_triMut_III_1.fq.gz
+0540b1c63b81cec1594bccb1d39786d1  sa_IX_triMut_III_2.fq.gz
+0ba89a7033b5e65b9f39b176df1c57ba  sample_VI_btm_III_1.fq.gz
+3dd10b1abab219284c3c3283099d8a0f  sample_VI_btm_III_2.fq.gz
+002336d00e3a25597f7924a038a10a27  sample_II__N2_II_1.fq.gz
+42a75655e9309febc0984ac329a9db98  sample_II__N2_II_2.fq.gz
+01c785b9557bacde25acf0e63dba19ab  sample_III_N2_III_1.fq.gz
+6173720c3e6eea8b47f5e322e2b9e72b  sample_III_N2_III_2.fq.gz
+-bash-4.2$ md5sum sa_VIII_triMut_II_1.fq.gz
+ff4de6d4db912640fd668f354a507440  sa_VIII_triMut_II_1.fq.gz
+-bash-4.2$ md5sum sa_IX_triMut_III_1.fq.gz
+c285696811d1162f50f94797ed42820d  sa_IX_triMut_III_1.fq.gz
+-bash-4.2$ cd ..
+-bash-4.2$ ls
+checkSize.xls  raw_data                             X201SC19120305-Z01-F001_qc_20191227 2
+outputQCFirst  X201SC19120305-Z01-F001_qc_20191227  X201SC19120305-Z01-F001_qc_20191227.tar.gz
+-bash-4.2$ du -sh raw_data
+22G	raw_data
+-bash-4.2$ cd ..
+-bash-4.2$ ls
+H201SC19120305-SA-KAUST_Yogesh  H201SC20020797-SA-KAUST_Sarah_2_ATAC-seq_lib
+H201SC20010205-SA-KAUST_Yogesh  H201SC20020814-SA-KAUST_Yogesh_4
+-bash-4.2$ du -sh H201SC19120305-SA-KAUST_Yogesh 
+22G	H201SC19120305-SA-KAUST_Yogesh
+-bash-4.2$  du -sh H201SC19120305-SA-KAUST_Yogesh
+22G	H201SC19120305-SA-KAUST_Yogesh
+-bash-4.2$ cd H201SC19120305-SA-KAUST_Yogesh
+-bash-4.2$ ls
+checkSize.xls  raw_data                             X201SC19120305-Z01-F001_qc_20191227 2
+outputQCFirst  X201SC19120305-Z01-F001_qc_20191227  X201SC19120305-Z01-F001_qc_20191227.tar.gz
+-bash-4.2$ du -sh raw_data 
+22G	raw_data
+-bash-4.2$ cd raw*
+-bash-4.2$ ls
+MD5.txt                    sample_III_N2_III_2.fq.gz  sample_IV_btm_I_2.fq.gz    sa_VIII_triMut_II_2.fq.gz
+sa_IX_triMut_III_1.fq.gz   sample_II__N2_II_1.fq.gz   sample_VI_btm_III_1.fq.gz
+sa_IX_triMut_III_2.fq.gz   sample_II__N2_II_2.fq.gz   sample_VI_btm_III_2.fq.gz
+sample_III_N2_III_1.fq.gz  sample_IV_btm_I_1.fq.gz    sa_VIII_triMut_II_1.fq.gz
+-bash-4.2$ du -sh * 
+64K	MD5.txt
+4.4G	sa_IX_triMut_III_1.fq.gz
+32K	sa_IX_triMut_III_2.fq.gz
+3.5G	sample_III_N2_III_1.fq.gz
+32K	sample_III_N2_III_2.fq.gz
+3.3G	sample_II__N2_II_1.fq.gz
+3.4G	sample_II__N2_II_2.fq.gz
+32K	sample_IV_btm_I_1.fq.gz
+32K	sample_IV_btm_I_2.fq.gz
+3.9G	sample_VI_btm_III_1.fq.gz
+32K	sample_VI_btm_III_2.fq.gz
+3.1G	sa_VIII_triMut_II_1.fq.gz
+32K	sa_VIII_triMut_II_2.fq.gz
+-bash-4.2$ md5sum sa_VIII_triMut_II_2.fq.gz
+0c5bdce05006fd87098ce0c8aafeb810  sa_VIII_triMut_II_2.fq.gz
+-bash-4.2$ cat MD5.txt
+ff4de6d4db912640fd668f354a507440  sa_VIII_triMut_II_1.fq.gz
+0c5bdce05006fd87098ce0c8aafeb810  sa_VIII_triMut_II_2.fq.gz
+65025b9fba3ff6469863551300ebaabc  sample_IV_btm_I_1.fq.gz
+05f1d118dbe79b951ccdbaceeac8220b  sample_IV_btm_I_2.fq.gz
+c285696811d1162f50f94797ed42820d  sa_IX_triMut_III_1.fq.gz
+0540b1c63b81cec1594bccb1d39786d1  sa_IX_triMut_III_2.fq.gz
+0ba89a7033b5e65b9f39b176df1c57ba  sample_VI_btm_III_1.fq.gz
+3dd10b1abab219284c3c3283099d8a0f  sample_VI_btm_III_2.fq.gz
+002336d00e3a25597f7924a038a10a27  sample_II__N2_II_1.fq.gz
+42a75655e9309febc0984ac329a9db98  sample_II__N2_II_2.fq.gz
+01c785b9557bacde25acf0e63dba19ab  sample_III_N2_III_1.fq.gz
+6173720c3e6eea8b47f5e322e2b9e72b  sample_III_N2_III_2.fq.gz
+-bash-4.2$ ls
+MD5.txt                    sample_III_N2_III_2.fq.gz  sample_IV_btm_I_2.fq.gz    sa_VIII_triMut_II_2.fq.gz
+sa_IX_triMut_III_1.fq.gz   sample_II__N2_II_1.fq.gz   sample_VI_btm_III_1.fq.gz
+sa_IX_triMut_III_2.fq.gz   sample_II__N2_II_2.fq.gz   sample_VI_btm_III_2.fq.gz
+sample_III_N2_III_1.fq.gz  sample_IV_btm_I_1.fq.gz    sa_VIII_triMut_II_1.fq.gz
+-bash-4.2$ du -sh *
+64K	MD5.txt
+4.4G	sa_IX_triMut_III_1.fq.gz
+32K	sa_IX_triMut_III_2.fq.gz
+3.5G	sample_III_N2_III_1.fq.gz
+32K	sample_III_N2_III_2.fq.gz
+3.3G	sample_II__N2_II_1.fq.gz
+3.4G	sample_II__N2_II_2.fq.gz
+32K	sample_IV_btm_I_1.fq.gz
+32K	sample_IV_btm_I_2.fq.gz
+3.9G	sample_VI_btm_III_1.fq.gz
+32K	sample_VI_btm_III_2.fq.gz
+3.1G	sa_VIII_triMut_II_1.fq.gz
+3.3G	sa_VIII_triMut_II_2.fq.gz
+-bash-4.2$ md5sum sample_IV_btm_I_1.fq.gz
+65025b9fba3ff6469863551300ebaabc  sample_IV_btm_I_1.fq.gz
+-bash-4.2$ md5sum *gz
+c285696811d1162f50f94797ed42820d  sa_IX_triMut_III_1.fq.gz
+0540b1c63b81cec1594bccb1d39786d1  sa_IX_triMut_III_2.fq.gz
+01c785b9557bacde25acf0e63dba19ab  sample_III_N2_III_1.fq.gz
+6173720c3e6eea8b47f5e322e2b9e72b  sample_III_N2_III_2.fq.gz
+002336d00e3a25597f7924a038a10a27  sample_II__N2_II_1.fq.gz
+42a75655e9309febc0984ac329a9db98  sample_II__N2_II_2.fq.gz
+65025b9fba3ff6469863551300ebaabc  sample_IV_btm_I_1.fq.gz
+05f1d118dbe79b951ccdbaceeac8220b  sample_IV_btm_I_2.fq.gz
+0ba89a7033b5e65b9f39b176df1c57ba  sample_VI_btm_III_1.fq.gz
+3dd10b1abab219284c3c3283099d8a0f  sample_VI_btm_III_2.fq.gz
+ff4de6d4db912640fd668f354a507440  sa_VIII_triMut_II_1.fq.gz
+0c5bdce05006fd87098ce0c8aafeb810  sa_VIII_triMut_II_2.fq.gz
+-bash-4.2$ grep "c285696811d1162f50f94797ed42820d  sa_IX_triMut_III_1.fq.gz" M*
+c285696811d1162f50f94797ed42820d  sa_IX_triMut_III_1.fq.gz
+-bash-4.2$ grep "0540b1c63b81cec1594bccb1d39786d1  sa_IX_triMut_III_2.fq.gz" M*
+0540b1c63b81cec1594bccb1d39786d1  sa_IX_triMut_III_2.fq.gz
+-bash-4.2$ grep "01c785b9557bacde25acf0e63dba19ab  sample_III_N2_III_1.fq.gz" M*
+01c785b9557bacde25acf0e63dba19ab  sample_III_N2_III_1.fq.gz
+-bash-4.2$ grep "6173720c3e6eea8b47f5e322e2b9e72b  sample_III_N2_III_2.fq.gz" M*
+6173720c3e6eea8b47f5e322e2b9e72b  sample_III_N2_III_2.fq.gz
+-bash-4.2$ grep "002336d00e3a25597f7924a038a10a27  sample_II__N2_II_1.fq.gz" M*
+002336d00e3a25597f7924a038a10a27  sample_II__N2_II_1.fq.gz
+-bash-4.2$ grep "42a75655e9309febc0984ac329a9db98  sample_II__N2_II_2.fq.gz" M*
+42a75655e9309febc0984ac329a9db98  sample_II__N2_II_2.fq.gz
+-bash-4.2$ grep "65025b9fba3ff6469863551300ebaabc  sample_IV_btm_I_1.fq.gz" M*
+65025b9fba3ff6469863551300ebaabc  sample_IV_btm_I_1.fq.gz
+-bash-4.2$ grep "05f1d118dbe79b951ccdbaceeac8220b  sample_IV_btm_I_2.fq.gz" M*
+05f1d118dbe79b951ccdbaceeac8220b  sample_IV_btm_I_2.fq.gz
+-bash-4.2$ grep "0ba89a7033b5e65b9f39b176df1c57ba  sample_VI_btm_III_1.fq.gz" M*
+0ba89a7033b5e65b9f39b176df1c57ba  sample_VI_btm_III_1.fq.gz
+-bash-4.2$ grep "3dd10b1abab219284c3c3283099d8a0f  sample_VI_btm_III_2.fq.gz" M*
+3dd10b1abab219284c3c3283099d8a0f  sample_VI_btm_III_2.fq.gz
+-bash-4.2$ grep "ff4de6d4db912640fd668f354a507440  sa_VIII_triMut_II_1.fq.gz" M*
+ff4de6d4db912640fd668f354a507440  sa_VIII_triMut_II_1.fq.gz
+-bash-4.2$ grep "0c5bdce05006fd87098ce0c8aafeb810  sa_VIII_triMut_II_2.fq.gz" M*
+0c5bdce05006fd87098ce0c8aafeb810  sa_VIII_triMut_II_2.fq.gz
+-bash-4.2$ ls
+MD5.txt                    sample_III_N2_III_2.fq.gz  sample_IV_btm_I_2.fq.gz    sa_VIII_triMut_II_2.fq.gz
+sa_IX_triMut_III_1.fq.gz   sample_II__N2_II_1.fq.gz   sample_VI_btm_III_1.fq.gz
+sa_IX_triMut_III_2.fq.gz   sample_II__N2_II_2.fq.gz   sample_VI_btm_III_2.fq.gz
+sample_III_N2_III_1.fq.gz  sample_IV_btm_I_1.fq.gz    sa_VIII_triMut_II_1.fq.gz
+-bash-4.2$ cd ..
+-bash-4.2$ ls
+checkSize.xls  raw_data                             X201SC19120305-Z01-F001_qc_20191227 2
+outputQCFirst  X201SC19120305-Z01-F001_qc_20191227  X201SC19120305-Z01-F001_qc_20191227.tar.gz
+-bash-4.2$ cd ..
+-bash-4.2$ ls
+H201SC19120305-SA-KAUST_Yogesh  H201SC20020797-SA-KAUST_Sarah_2_ATAC-seq_lib
+H201SC20010205-SA-KAUST_Yogesh  H201SC20020814-SA-KAUST_Yogesh_4
+-bash-4.2$ cd  H201SC20020814-SA-KAUST_Yogesh_4
+-bash-4.2$ ls
+MD5.txt  X201SC20020814-Z01-F001.tar
+-bash-4.2$ du -sh X201SC20020814-Z01-F001.tar
+99G	X201SC20020814-Z01-F001.tar
+-bash-4.2$ cd ..
+-bash-4.2$ ls
+H201SC19120305-SA-KAUST_Yogesh  H201SC20020797-SA-KAUST_Sarah_2_ATAC-seq_lib
+H201SC20010205-SA-KAUST_Yogesh  H201SC20020814-SA-KAUST_Yogesh_4
+-bash-4.2$ cd H201SC20010205-SA-KAUST_Yogesh 
+-bash-4.2$ ls
+MD5.txt  X201SC20010205-Z01-F001  X201SC20010205-Z01-F001.tar
+-bash-4.2$ cd H201SC20010205-SA-KAUST_Yogesh 
+-bash: cd: H201SC20010205-SA-KAUST_Yogesh: No such file or directory
+-bash-4.2$ ls
+MD5.txt  X201SC20010205-Z01-F001  X201SC20010205-Z01-F001.tar
+-bash-4.2$ cd X201SC20010205-Z01-F001
+-bash-4.2$ ls
+raw_data  X201SC20010205-Z01-F001_qc_20200117.tar.gz
+-bash-4.2$ du -sh raw*
+45G	raw_data
+-bash-4.2$ cd raw*
+-bash-4.2$ ls
+ChIPSeq_library1   ChIPSeq_library2  ChIPSeq_library4  ChIPSeq_library6  ChIPSeq_library8
+ChIPSeq_library10  ChIPSeq_library3  ChIPSeq_library5  ChIPSeq_library7  Rawdata_Readme.pdf
+-bash-4.2$ cd ..
+-bash-4.2$ ls
+raw_data  X201SC20010205-Z01-F001_qc_20200117.tar.gz
+-bash-4.2$ cd ..
+-bash-4.2$ ls
+MD5.txt  X201SC20010205-Z01-F001  X201SC20010205-Z01-F001.tar
+-bash-4.2$ ls
+MD5.txt  X201SC20010205-Z01-F001  X201SC20010205-Z01-F001.tar
+-bash-4.2$ cd ..
+-bash-4.2$ ls
+H201SC19120305-SA-KAUST_Yogesh  H201SC20020797-SA-KAUST_Sarah_2_ATAC-seq_lib
+H201SC20010205-SA-KAUST_Yogesh  H201SC20020814-SA-KAUST_Yogesh_4
+-bash-4.2$ cd ..
+-bash-4.2$ ls
+2020-03-02 H1.4nuc-35C reass-DMAE.tif  Lorena
+AARÓN                                  MPI-Bpc 2005-2018
+Abrar                                  Nanodrop stuff_from Urea AKTA computer
+Ahlem                                  Native AKTA & TECAN
+Allmatrix                              OldCopies_KW60208
+AllValidPairs                          Others
+archive                                Othman
+Backup_KW14148                         Papita
+Core_HIC                               PLOTS
+CoreLab_Wolfgang_Data                  Sarah
+CoreNovogen_Wolfgang_Data              Shakila
+Dulat                                  Sumy
+Elizabeth                              test1
+Fernanda                               test_backup
+former lab members KAUST               unicorn exported files jan 20
+Jorge                                  Velucha
+kw14148_velucha                        Yogesh
+KW60208_home_data                      Zhadyra
+KW60208_RCDrive_data
+-bash-4.2$ cd CoreNovogen_Wolfgang_Data   
+-bash-4.2$ ls
+H201SC19120305-SA-KAUST_Yogesh  H201SC20020797-SA-KAUST_Sarah_2_ATAC-seq_lib
+H201SC20010205-SA-KAUST_Yogesh  H201SC20020814-SA-KAUST_Yogesh_4
+-bash-4.2$ du -sh H201SC19120305-SA-KAUST_Yogesh 
+46G	H201SC19120305-SA-KAUST_Yogesh
+-bash-4.2$ cd H201SC19120305-SA-KAUST_Yogesh 
+-bash-4.2$ ls
+checkSize.xls  raw_data                             X201SC19120305-Z01-F001_qc_20191227 2
+outputQCFirst  X201SC19120305-Z01-F001_qc_20191227  X201SC19120305-Z01-F001_qc_20191227.tar.gz
+-bash-4.2$ du -sh raw*
+45G	raw_data
+-bash-4.2$ ls
+checkSize.xls  raw_data                             X201SC19120305-Z01-F001_qc_20191227 2
+outputQCFirst  X201SC19120305-Z01-F001_qc_20191227  X201SC19120305-Z01-F001_qc_20191227.tar.gz
+-bash-4.2$ cd raw_data  
+-bash-4.2$ ls
+MD5.txt                    sample_III_N2_III_2.fq.gz  sample_IV_btm_I_2.fq.gz    sa_VIII_triMut_II_2.fq.gz
+sa_IX_triMut_III_1.fq.gz   sample_II__N2_II_1.fq.gz   sample_VI_btm_III_1.fq.gz
+sa_IX_triMut_III_2.fq.gz   sample_II__N2_II_2.fq.gz   sample_VI_btm_III_2.fq.gz
+sample_III_N2_III_1.fq.gz  sample_IV_btm_I_1.fq.gz    sa_VIII_triMut_II_1.fq.gz
+-bash-4.2$ du -sh *fq*
+4.4G	sa_IX_triMut_III_1.fq.gz
+4.8G	sa_IX_triMut_III_2.fq.gz
+3.5G	sample_III_N2_III_1.fq.gz
+3.9G	sample_III_N2_III_2.fq.gz
+3.3G	sample_II__N2_II_1.fq.gz
+3.4G	sample_II__N2_II_2.fq.gz
+3.8G	sample_IV_btm_I_1.fq.gz
+3.9G	sample_IV_btm_I_2.fq.gz
+3.9G	sample_VI_btm_III_1.fq.gz
+4.3G	sample_VI_btm_III_2.fq.gz
+3.1G	sa_VIII_triMut_II_1.fq.gz
+3.3G	sa_VIII_triMut_II_2.fq.gz
+-bash-4.2$ cd ..
+-bash-4.2$ ls
+checkSize.xls  raw_data                             X201SC19120305-Z01-F001_qc_20191227 2
+outputQCFirst  X201SC19120305-Z01-F001_qc_20191227  X201SC19120305-Z01-F001_qc_20191227.tar.gz
+-bash-4.2$ cd ..
+-bash-4.2$ ls
+H201SC19120305-SA-KAUST_Yogesh  H201SC20020797-SA-KAUST_Sarah_2_ATAC-seq_lib
+H201SC20010205-SA-KAUST_Yogesh  H201SC20020814-SA-KAUST_Yogesh_4
+-bash-4.2$ cd ..
+-bash-4.2$ ls
+2020-03-02 H1.4nuc-35C reass-DMAE.tif  Lorena
+AARÓN                                  MPI-Bpc 2005-2018
+Abrar                                  Nanodrop stuff_from Urea AKTA computer
+Ahlem                                  Native AKTA & TECAN
+Allmatrix                              OldCopies_KW60208
+AllValidPairs                          Others
+archive                                Othman
+Backup_KW14148                         Papita
+Core_HIC                               PLOTS
+CoreLab_Wolfgang_Data                  Sarah
+CoreNovogen_Wolfgang_Data              Shakila
+Dulat                                  Sumy
+Elizabeth                              test1
+Fernanda                               test_backup
+former lab members KAUST               unicorn exported files jan 20
+Jorge                                  Velucha
+kw14148_velucha                        Yogesh
+KW60208_home_data                      Zhadyra
+KW60208_RCDrive_data
+-bash-4.2$ cd Sumy
+-bash-4.2$ ls
+Coordinatesort                                            NewFilesDownload
+DataTable                                                 OldIntervalstat
+ElizebethRNAseq                                           OldIntervalStatsPlots
+H3k9me3CelegansEmbryo_ChipseqDatasets_Intersection_Plots  ProjectFilesArranged
+HICAnalysis                                               Project_Machine_Learning
+HumanNCBI_K562_ME1_DNMT1                                  Project_ProteomicsNCBI
+IntersectionPlots                                         ProjectProteomicsNCBI_Intervalstats
+IntervalstatAnalysis2                                     RNAPolymerase2
+IntervalStatControlsHist1                                 Sorted_byCordinate
+IntervalStatDataHist1                                     Yogesh_EukayoticMRNA_RNAseq
+Making200bpWindows_ForVennDiagram                         Yogesh_SarahRNAseq
+New_Counts
+-bash-4.2$ cd Yogesh_EukayoticMRNA_RNAseq
+-bash-4.2$ ls
+checkSize.xls                  RNA_Seq_Analysis         RNAseqDownstreamPlots
+DiffrentialExpReversestranded  RNA_Seq_Analysis_Latest  X201SC19120305-Z01-F001_qc_20191227
+FunctionalAnnotation           RNAseqAnalysis.pptx      X201SC19120305-Z01-F001_qc_20191227.tar.gz
+-bash-4.2$ cd RNA_Seq_Analysis_Latest
+-bash-4.2$ ls
+AnnotationCE11                                          sample_II__N2_II_1.fqLog.progress.out
+Btm                                                     sample_II__N2_II_1.fqReadsPerGene.out.tab
+Btm_counts                                              sample_II__N2_II_1.fqReadsPerGene.out.tab_count
+Commandhtone.sh                                         sample_II__N2_II_1.fqReadsPerGene.out.tab_count1
+Commands1.sh                                            sample_II__N2_II_1.fqSJ.out.tab
+Commands2.sh                                            sample_II__N2_II_1.fq_STARgenome
+Commands3.sh                                            sample_II__N2_II_1.fqUnmapped.out.mate1
+Commands4.sh                                            sample_II__N2_II_1.fqUnmapped.out.mate2
+Commands5.sh                                            sample_II__N2_II_2.fq
+Commands6.sh                                            sample_IV_btm_I_1.fq
+Commandsht1.sh                                          sample_IV_btm_I_1.fqAligned.out.bam
+Commandsht2.sh                                          sample_IV_btm_I_1.fqAligned.out.bamCounts
+Commandsht3.sh                                          sample_IV_btm_I_1.fqLog.final.out
+Commandsht4.sh                                          sample_IV_btm_I_1.fqLog.out
+Commandsht5.sh                                          sample_IV_btm_I_1.fqLog.progress.out
+Commandsht6.sh                                          sample_IV_btm_I_1.fqReadsPerGene.out.tab
+Commandsort1.sh                                         sample_IV_btm_I_1.fqReadsPerGene.out.tab_count
+Commandsort2.sh                                         sample_IV_btm_I_1.fqReadsPerGene.out.tab_count1
+Commandsort3.sh                                         sample_IV_btm_I_1.fqSJ.out.tab
+Commandsort4.sh                                         sample_IV_btm_I_1.fq_STARgenome
+Commandsort5.sh                                         sample_IV_btm_I_1.fqUnmapped.out.mate1
+Commandsort6.sh                                         sample_IV_btm_I_1.fqUnmapped.out.mate2
+Coordinatesort                                          sample_IV_btm_I_2.fq
+DifferentialExpAnalysis_reversestranded                 sample_VI_btm_III_1.fq
+DiffExp_Analysis                                        sample_VI_btm_III_1.fqAligned.out.bam
+DiffrentialExpProteinCodingGenes                        sample_VI_btm_III_1.fqAligned.out.bamCounts
+FastQC.sh                                               sample_VI_btm_III_1.fqLog.final.out
+Format1.sh                                              sample_VI_btm_III_1.fqLog.out
+FormatCounts2.sh                                        sample_VI_btm_III_1.fqLog.progress.out
+FormatCounts3.sh                                        sample_VI_btm_III_1.fqReadsPerGene.out.tab
+FormatCounts4.sh                                        sample_VI_btm_III_1.fqReadsPerGene.out.tab_count
+FormatCounts5.sh                                        sample_VI_btm_III_1.fqReadsPerGene.out.tab_count1
+FormatedCounts                                          sample_VI_btm_III_1.fqSJ.out.tab
+FormatedCounts1                                         sample_VI_btm_III_1.fq_STARgenome
+FormatedCounts2                                         sample_VI_btm_III_1.fqUnmapped.out.mate1
+FormatedCounts5                                         sample_VI_btm_III_1.fqUnmapped.out.mate2
+HtseqcountCommands.sh                                   sample_VI_btm_III_2.fq
+MD5.txt                                                 sa_VIII_triMut_II_1.fq
+MergedCounts                                            sa_VIII_triMut_II_1.fqAligned.out.bam
+N2                                                      sa_VIII_triMut_II_1.fqAligned.out.bamCounts
+N2_counts                                               sa_VIII_triMut_II_1.fqLog.final.out
+outputQCFirst                                           sa_VIII_triMut_II_1.fqLog.out
+ReferenceGenomeCe11                                     sa_VIII_triMut_II_1.fqLog.progress.out
+sa_IX_triMut_III_1.fq                                   sa_VIII_triMut_II_1.fqReadsPerGene.out.tab
+sa_IX_triMut_III_1.fqAligned.out.bam                    sa_VIII_triMut_II_1.fqReadsPerGene.out.tab_count
+sa_IX_triMut_III_1.fqAligned.out.bamCounts              sa_VIII_triMut_II_1.fqReadsPerGene.out.tab_count1
+sa_IX_triMut_III_1.fqAligned.out.bamCounts_new          sa_VIII_triMut_II_1.fqSJ.out.tab
+sa_IX_triMut_III_1.fqAligned.out.bamCounts_new1         sa_VIII_triMut_II_1.fq_STARgenome
+sa_IX_triMut_III_1.fqAligned.out.bamCounts_nonstranded  sa_VIII_triMut_II_1.fqUnmapped.out.mate1
+sa_IX_triMut_III_1.fqAligned.out.bamCounts_Reversed     sa_VIII_triMut_II_1.fqUnmapped.out.mate2
+sa_IX_triMut_III_1.fqLog.final.out                      sa_VIII_triMut_II_2.fq
+sa_IX_triMut_III_1.fqLog.out                            slurm-8491519.out
+sa_IX_triMut_III_1.fqLog.progress.out                   slurm-8491603.out
+sa_IX_triMut_III_1.fqReadsPerGene.out.tab               slurm-8491604.out
+sa_IX_triMut_III_1.fqReadsPerGene.out.tab_count         slurm-8491605.out
+sa_IX_triMut_III_1.fqReadsPerGene.out.tab_count1        slurm-8491607.out
+sa_IX_triMut_III_1.fqSJ.out.tab                         slurm-8491608.out
+sa_IX_triMut_III_1.fq_STARgenome                        slurm-8491609.out
+sa_IX_triMut_III_1.fqUnmapped.out.mate1                 slurm-8515693.out
+sa_IX_triMut_III_1.fqUnmapped.out.mate2                 slurm-8515694.out
+sa_IX_triMut_III_2.fq                                   slurm-8519248.out
+sample_III_N2_III_1.fq                                  slurm-8520581.out
+sample_III_N2_III_1.fqAligned.out.bam                   slurm-8553595.out
+sample_III_N2_III_1.fqAligned.out.bamCounts             slurm-8576869.out
+sample_III_N2_III_1.fqLog.final.out                     slurm-8577016.out
+sample_III_N2_III_1.fqLog.out                           slurm-8577244.out
+sample_III_N2_III_1.fqLog.progress.out                  slurm-8577245.out
+sample_III_N2_III_1.fqReadsPerGene.out.tab              slurm-8577246.out
+sample_III_N2_III_1.fqReadsPerGene.out.tab_count        slurm-8577251.out
+sample_III_N2_III_1.fqReadsPerGene.out.tab_count1       slurm-8577278.out
+sample_III_N2_III_1.fqSJ.out.tab                        slurm-8577279.out
+sample_III_N2_III_1.fq_STARgenome                       Sortcommands.sh
+sample_III_N2_III_1.fqUnmapped.out.mate1                Sorted_byCordinate
+sample_III_N2_III_1.fqUnmapped.out.mate2                StarAlignmentCommands.sh
+sample_III_N2_III_2.fq                                  StarRefIndex
+sample_II__N2_II_1.fq                                   StarRefIndex.sh
+sample_II__N2_II_1.fqAligned.out.bam                    Trimut
+sample_II__N2_II_1.fqAligned.out.bamCounts              Trimut_counts
+sample_II__N2_II_1.fqLog.final.out                      unzip.sh
+sample_II__N2_II_1.fqLog.out
+-bash-4.2$ ls *fq
+sa_IX_triMut_III_1.fq   sample_III_N2_III_2.fq  sample_IV_btm_I_1.fq    sample_VI_btm_III_2.fq
+sa_IX_triMut_III_2.fq   sample_II__N2_II_1.fq   sample_IV_btm_I_2.fq    sa_VIII_triMut_II_1.fq
+sample_III_N2_III_1.fq  sample_II__N2_II_2.fq   sample_VI_btm_III_1.fq  sa_VIII_triMut_II_2.fq
+-bash-4.2$ du -sh *fq
+20G	sa_IX_triMut_III_1.fq
+20G	sa_IX_triMut_III_2.fq
+17G	sample_III_N2_III_1.fq
+32K	sample_III_N2_III_2.fq
+16G	sample_II__N2_II_1.fq
+16G	sample_II__N2_II_2.fq
+17G	sample_IV_btm_I_1.fq
+17G	sample_IV_btm_I_2.fq
+32K	sample_VI_btm_III_1.fq
+32K	sample_VI_btm_III_2.fq
+32K	sa_VIII_triMut_II_1.fq
+16G	sa_VIII_triMut_II_2.fq
+-bash-4.2$ gzip *fq
+
+
+
+

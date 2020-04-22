@@ -1,0 +1,53 @@
+Desktop     H201SC20010205-SA-KAUST_Yogesh  Homo_sapiens.GRCh38.dna.primary_assembly.fa   NewDownload  Pictures                rr.txt         Videos
+Documents   H201SC20020587-SA-KAUST_Yogesh  mm.txt                                        nohup.out    Public                  Splittedfiles
+(base) vannils@kw60208:~$ cat /home/vannils/.ossutilconfig
+[Credentials]
+language=EN
+accessKeySecret=PDtOqm0DL2OuT6O6fr5tck0W9VUVQI
+endpoint=oss-cn-beijing.aliyuncs.com
+accessKeyID=LTAI4FqEtDjarVqLrvR3F5cf
+(base) vannils@kw60208:~$ ./ossutil64 --config-file /home/vannils/.ossutilconfig cp –r oss://pangoo-bj/customer-q7VqKxbo/ H201SC20020587-SA-KAUST_Yogesh
+Error: copy files between local file system is not allowed in ossutil, if you want to upload to oss, please make sure dest_url starts with "oss://"!
+(base) vannils@kw60208:~$ ./ossutil64 --config-file /home/vannils/.ossutilconfig cp –r oss://pangoo-bj/customer-q7VqKxbo/* .
+Error: copy files between local file system is not allowed in ossutil, if you want to upload to oss, please make sure dest_url starts with "oss://"!
+(base) vannils@kw60208:~$ ./ossutil64 --config-file /home/vannils/.ossutilconfig cp –r oss://pangoo-bj/customer-q7VqKxbo/ /home/vannils/H201SC20020587-SA-KAUST_Yogesh
+Error: copy files between local file system is not allowed in ossutil, if you want to upload to oss, please make sure dest_url starts with "oss://"!
+(base) vannils@kw60208:~$ ./ossutil64 --config-file /home/vannils/.ossutilconfig cp –r oss://pangoo-bj/customer-q7VqKxbo/ 
+Error: stat –r: no such file or directory!
+(base) vannils@kw60208:~$ ./ossutil64 --config-file /home/vannils/.ossutilconfig cp oss://pangoo-bj/customer-q7VqKxbo/ 
+Error: invalid usage of "cp" command, reason: the command needs at least 2 arguments, please try "help cp" for more information!
+(base) vannils@kw60208:~$ ./ossutil64 --config-file /home/vannils/.ossutilconfig cp oss://pangoo-bj/customer-q7VqKxbo/ /home/vannils/H201SC20020587-SA-KAUST_Yogesh
+FinishWithError: Scanned 1 objects. Error num: 1. OK num: 0, Transfer size: 0.
+Error: oss: service returned without a response body (404 Not Found), Bucket=pangoo-bj, Object=customer-q7VqKxbo/!
+(base) vannils@kw60208:~$ ./ossutil64 --config-file /home/vannils/.ossutilconfig cp -r oss://pangoo-bj/customer-q7VqKxbo /home/vannils/H201SC20020587-SA-KAUST_Yogesh
+Error: oss: service returned error: StatusCode=403, ErrorCode=AccessDenied, ErrorMessage=The bucket you access does not belong to you., RequestId=5E71A79D6FF1C532343FBD8B, Bucket=pangoo-bj!
+(base) vannils@kw60208:~$ pwd
+/home/vannils
+(base) vannils@kw60208:~$ clear
+
+(base) vannils@kw60208:~$ ./ossutil64 --config-file /home/vannils/.ossutilconfig cp -r oss://pangoo-bj/customer-q7VqKxbo /home/vannils/H201SC20020587-SA-KAUST_Yogesh
+Error: oss: service returned error: StatusCode=403, ErrorCode=AccessDenied, ErrorMessage=The bucket you access does not belong to you., RequestId=5E71A7E65C8CDB3933D4D05A, Bucket=pangoo-bj!
+(base) vannils@kw60208:~$ cat /home/vannils/.ossutilconfig
+[Credentials]
+language=EN
+accessKeySecret=PDtOqm0DL2OuT6O6fr5tck0W9VUVQI
+endpoint=oss-cn-beijing.aliyuncs.com
+accessKeyID=LTAI4FqEtDjarVqLrvR3F5cf
+(base) vannils@kw60208:~$ ./ossutil64 --config-file /home/vannils/.ossutilconfig cp -r oss://pangoo-bj/customer-q7VqKxbo/ /home/vannils/H201SC20020587-SA-KAUST_Yogesh
+Total num: 24, size: 59,854,995,815. Dealed num: 3(download 3 objects), OK size: 906,929,789, Progress: 1%^Z
+[2]+  Stopped                 ./ossutil64 --config-file /home/vannils/.ossutilconfig cp -r oss://pangoo-bj/customer-q7VqKxbo/ /home/vannils/H201SC20020587-SA-KAUST_Yogesh
+(base) vannils@kw60208:~$ nohup ./ossutil64 --config-file /home/vannils/.ossutilconfig cp -r oss://pangoo-bj/customer-q7VqKxbo/ /home/vannils/H201SC20020587-SA-KAUST_Yogesh
+nohup: ignoring input and appending output to 'nohup.out'
+(base) vannils@kw60208:~$ 
+
+
+
+
+
+
+
+
+
+
+
+
